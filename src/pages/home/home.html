@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+                <div class="favImgDiv">
+                    <div class="imgDiv">
+                        <img src="{{image}}"/>
+                    </div>
+                    <button ion-button clear color="danger" class="favDiv">
+                        <ion-icon ios="ios-heart" md="md-heart"></ion-icon>
+                    </button>
+                </div>
+                
+                <ion-item no-lines class="profilePicRecipeName">
+                    <ion-avatar item-right class="profilePicAvatar">         
+                            <img class="profilePic" src="{{profilePic}}"/>
+                    </ion-avatar>
+                </ion-item>
+</ion-content>

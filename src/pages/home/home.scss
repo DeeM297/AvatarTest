@@ -1,0 +1,37 @@
+page-home {
+        .profilePicRecipeName {
+            position: static;
+        }
+        
+        .profilePicAvatar {
+            position: absolute;
+            bottom: 17%;
+            right: 7%;
+            z-index: 2;
+        }
+        
+        .profilePic {
+            width: 70px !important;  
+            height : 70px !important; 
+            max-width: 70px !important;  
+            max-height: 70px !important; 
+            border-radius: 50%;
+            border: 3.5px solid #fff;
+        }
+        
+        .favImgDiv {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .favDiv {
+            position: absolute;
+            top: 10%;
+            right: 6%;
+            font-size: 1.6em; //default large at 1.2em
+        }
+        
+        .imgDiv {
+            width: auto;
+        }
+}
